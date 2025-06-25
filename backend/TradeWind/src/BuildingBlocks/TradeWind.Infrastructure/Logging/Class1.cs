@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TradeWind.Shared.Models;
-
-class Class1
+namespace TradeWind.Infrastructure.Logging
 {
+    class Class1
+    {
+    }
 }
