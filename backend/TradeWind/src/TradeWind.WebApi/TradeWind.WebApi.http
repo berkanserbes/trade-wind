@@ -1,0 +1,6 @@
+@TradeWind.WebApi_HostAddress = http://localhost:5161
+
+GET {{TradeWind.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
