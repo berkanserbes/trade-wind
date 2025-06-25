@@ -37,6 +37,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWind.Modules.Trading.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWind.Modules.Trading.Application", "src\Modules\Trading\TradeWind.Modules.Trading.Application\TradeWind.Modules.Trading.Application.csproj", "{7A8D8D23-96F3-4C83-A71D-299DB8DE2DED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWind.Modules.Users.Domain", "src\Modules\Users\TradeWind.Modules.Users.Domain\TradeWind.Modules.Users.Domain.csproj", "{14067EC3-22BB-45E5-9959-FB37B46B2C75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{E16BDA85-22C4-4366-A0EB-3982A967318A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWind.Modules.Users.Infrastructure", "src\Modules\Users\TradeWind.Modules.Users.Infrastructure\TradeWind.Modules.Users.Infrastructure.csproj", "{CF09FB7D-1FD4-4E4E-8006-9E58E5CF6BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWind.Modules.Users.Application", "src\Modules\Users\TradeWind.Modules.Users.Application\TradeWind.Modules.Users.Application.csproj", "{7DB84B0B-C357-4517-972F-BC98C7A778AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +95,18 @@ Global
 		{7A8D8D23-96F3-4C83-A71D-299DB8DE2DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A8D8D23-96F3-4C83-A71D-299DB8DE2DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A8D8D23-96F3-4C83-A71D-299DB8DE2DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14067EC3-22BB-45E5-9959-FB37B46B2C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14067EC3-22BB-45E5-9959-FB37B46B2C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14067EC3-22BB-45E5-9959-FB37B46B2C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14067EC3-22BB-45E5-9959-FB37B46B2C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF09FB7D-1FD4-4E4E-8006-9E58E5CF6BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF09FB7D-1FD4-4E4E-8006-9E58E5CF6BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF09FB7D-1FD4-4E4E-8006-9E58E5CF6BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF09FB7D-1FD4-4E4E-8006-9E58E5CF6BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB84B0B-C357-4517-972F-BC98C7A778AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB84B0B-C357-4517-972F-BC98C7A778AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB84B0B-C357-4517-972F-BC98C7A778AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB84B0B-C357-4517-972F-BC98C7A778AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +128,10 @@ Global
 		{8262E526-B49E-46A9-9A7C-4616337CE565} = {0E8B483C-F94A-4480-A049-B82AB14E1418}
 		{84C8C96C-9BDD-4DB6-9CD1-566A69B9732E} = {8262E526-B49E-46A9-9A7C-4616337CE565}
 		{7A8D8D23-96F3-4C83-A71D-299DB8DE2DED} = {8262E526-B49E-46A9-9A7C-4616337CE565}
+		{14067EC3-22BB-45E5-9959-FB37B46B2C75} = {E16BDA85-22C4-4366-A0EB-3982A967318A}
+		{E16BDA85-22C4-4366-A0EB-3982A967318A} = {0E8B483C-F94A-4480-A049-B82AB14E1418}
+		{CF09FB7D-1FD4-4E4E-8006-9E58E5CF6BB6} = {E16BDA85-22C4-4366-A0EB-3982A967318A}
+		{7DB84B0B-C357-4517-972F-BC98C7A778AE} = {E16BDA85-22C4-4366-A0EB-3982A967318A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2688A57-5E77-4F0A-BC08-DAD2BEFCA5AA}
