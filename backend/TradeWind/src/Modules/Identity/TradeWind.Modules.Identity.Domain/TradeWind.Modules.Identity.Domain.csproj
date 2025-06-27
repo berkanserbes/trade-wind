@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\TradeWind.Shared\TradeWind.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
