@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TradeWind.Modules.Identity.Application.Validators
+namespace TradeWind.Modules.Identity.Application.Interfaces;
+
+public interface ILoginService
 {
-    class Class1
-    {
-    }
 }
