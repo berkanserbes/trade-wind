@@ -20,6 +20,7 @@ public static class ServiceRegistration
 	{
 		services.AddScoped<IRegisterService, RegisterService>();
 		services.AddScoped<ILoginService, LoginService>();
+		services.AddScoped<ITokenService, TokenService>();
 
 		return services;
 	}
