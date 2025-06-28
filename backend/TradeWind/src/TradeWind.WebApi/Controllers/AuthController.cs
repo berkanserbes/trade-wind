@@ -27,8 +27,8 @@ public class AuthController : ControllerBase
 
 		if (!result.IsSuccess)
 		{
-			return BadRequest(result.Message);
+			return BadRequest(result);
 		}
-		return Ok(result.Data);
+		return Ok(result);
 	}
 }

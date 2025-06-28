@@ -8,7 +8,7 @@ namespace TradeWind.Modules.Identity.Application;
 
 public static class ServiceRegistration
 {
-	public static IServiceCollection ConfigureValidators(IServiceCollection services)
+	public static IServiceCollection ConfigureValidators(this IServiceCollection services)
 	{
 		services.AddValidatorsFromAssemblyContaining<RegisterRequestValidator>();
 		services.AddValidatorsFromAssemblyContaining<LoginRequestValidator>();
