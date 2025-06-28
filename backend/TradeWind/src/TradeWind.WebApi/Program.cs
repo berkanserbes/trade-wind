@@ -31,6 +31,8 @@ if (app.Environment.IsDevelopment())
 	app.MapScalarApiReference();
 }
 
+//app.UseMiddleware<TradeWind.WebApi.Middlewares.AuthenticationMiddleware>();
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
