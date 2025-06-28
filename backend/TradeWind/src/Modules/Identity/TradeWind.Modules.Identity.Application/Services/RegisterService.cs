@@ -33,16 +33,11 @@ public class RegisterService : IRegisterService
 				response = new DataResult<RegisterResponse>
 				{
 					IsSuccess = false,
-					Message = string.Join("; ", validatorResult.Errors.Select(e => e.ErrorMessage)),
+					Message = ValidationHelper.GetErrorMessage(validatorResult),
 					Data = null
 				};
 
 				return response;
-			}
-
-			if (request.Password != request.ConfirmPassword)
-			{
-				throw new InvalidOperationException("Password and Confirm Password do not match.");
 			}
 
 			if (await _dbContext.Users.AnyAsync(u => u.Email == request.Email, cancellationToken))
